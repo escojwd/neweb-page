@@ -1,0 +1,39 @@
+@mixin simpleAnchor {
+  text-decoration: none;
+  color: white;
+}
+
+@mixin button {
+  padding: 18px 55px;
+  border-radius: 15px;
+  font-size: 20px;
+  background-color: rgb(87, 43, 217);
+  color: white;
+  &:hover {
+    background-color: rgb(255, 221, 51);
+  }
+}
+
+@mixin headerSemiBold($color) {
+  font-size: 60px;
+  font-weight: 600;
+  color: $color;
+}
+
+@mixin paragraphRegular($color) {
+  font-size: 20px;
+  font-weight: 400;
+  color: $color;
+}
+
+@mixin flexStyle {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@mixin whiteBox($width) {
+  height: 43vh;
+  border-radius: 15px;
+  box-shadow: 20px 20px 100px 5px #f0f0f5;
+  width: $width;
+}
