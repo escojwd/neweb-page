@@ -180,6 +180,7 @@ button {
   .get-product-wrapper {
     background-image: url(../assets/content-back.png);
     background-repeat: no-repeat;
+    background-size: cover;
     height: 630px;
     text-align: center;
     padding-top: 90px;
@@ -325,6 +326,14 @@ button {
       background-color: white;
       text-align: center;
       padding: 30px;
+      &:hover {
+        background-color: #6837fa;
+        p,
+        span,
+        .pack-service {
+          color: white;
+        }
+      }
 
       .pack-text {
         padding: 30px 45px;
@@ -353,10 +362,14 @@ button {
         .pack-service {
           div {
             margin: 20px 0;
+            color: #7e92ac;
+
+            // span {
+            //   color: #483091;
+            // }
 
             p {
               display: inline-block;
-              color: #7e92ac;
               margin-left: 15px;
             }
           }
@@ -468,6 +481,7 @@ button {
   .get-product-wrapper {
     background-image: url(../assets/content-back2.png);
     background-repeat: no-repeat;
+    background-size: cover;
     height: 630px;
     text-align: center;
     padding-top: 90px;
@@ -503,7 +517,7 @@ footer {
   .footer-wrapper {
     @include flexStyle;
     width: 75%;
-    margin: 0 auto;
+    margin: 115px auto 95px;
     justify-content: space-between;
 
     .about {
@@ -559,7 +573,7 @@ footer {
         img {
           position: absolute;
           top: 56px;
-          right: -150px;
+          right: 30px;
         }
       }
 

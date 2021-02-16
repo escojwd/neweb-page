@@ -248,6 +248,7 @@ button:hover {
 .structure-testimonials .get-product-wrapper {
   background-image: url(../assets/content-back.png);
   background-repeat: no-repeat;
+  background-size: cover;
   height: 630px;
   text-align: center;
   padding-top: 90px;
@@ -433,6 +434,16 @@ button:hover {
   padding: 30px;
 }
 
+.market-section .selling-packs .single-pack:hover {
+  background-color: #6837fa;
+}
+
+.market-section .selling-packs .single-pack:hover p,
+.market-section .selling-packs .single-pack:hover span,
+.market-section .selling-packs .single-pack:hover .pack-service {
+  color: white;
+}
+
 .market-section .selling-packs .single-pack .pack-text {
   padding: 30px 45px;
 }
@@ -462,11 +473,11 @@ button:hover {
 
 .market-section .selling-packs .single-pack .pack-text .pack-service div {
   margin: 20px 0;
+  color: #7e92ac;
 }
 
 .market-section .selling-packs .single-pack .pack-text .pack-service div p {
   display: inline-block;
-  color: #7e92ac;
   margin-left: 15px;
 }
 
@@ -608,6 +619,7 @@ button:hover {
 .question-contact .get-product-wrapper {
   background-image: url(../assets/content-back2.png);
   background-repeat: no-repeat;
+  background-size: cover;
   height: 630px;
   text-align: center;
   padding-top: 90px;
@@ -649,7 +661,7 @@ footer .footer-wrapper {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   width: 75%;
-  margin: 0 auto;
+  margin: 115px auto 95px;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -712,7 +724,7 @@ footer .footer-wrapper .social .subscribe button {
 footer .footer-wrapper .social .subscribe img {
   position: absolute;
   top: 56px;
-  right: -150px;
+  right: 30px;
 }
 
 footer .footer-wrapper .social .social-icons {
