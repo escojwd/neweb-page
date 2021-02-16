@@ -582,16 +582,7 @@ button:hover {
   margin: 0 auto;
 }
 
-.question-contact .contact-wrapper .contact input {
-  padding: 25px 40px;
-  font-size: 20px;
-  color: #7e92ac;
-  border-radius: 15px;
-  background-color: #fcfdff;
-  border: 1px solid #c3cce8;
-  margin: 30px 0;
-}
-
+.question-contact .contact-wrapper .contact input,
 .question-contact .contact-wrapper .contact textarea {
   padding: 25px 40px;
   font-size: 20px;
@@ -599,6 +590,13 @@ button:hover {
   border-radius: 15px;
   background-color: #fcfdff;
   border: 1px solid #c3cce8;
+}
+
+.question-contact .contact-wrapper .contact input {
+  margin: 30px 0;
+}
+
+.question-contact .contact-wrapper .contact textarea {
   height: 280px;
   resize: none;
 }
