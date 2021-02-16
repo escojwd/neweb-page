@@ -1,3 +1,9 @@
+@media (max-width: 1400px) {
+  .title-image img {
+    width: 800px;
+  }
+}
+
 * {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -89,7 +95,7 @@ button:hover {
 
 .header-section .header-title {
   margin: 120px auto 0;
-  width: 60%;
+  width: 65%;
   text-align: center;
 }
 
@@ -164,6 +170,7 @@ button:hover {
   font-size: 20px;
   font-weight: 400;
   color: black;
+  line-height: 40px;
 }
 
 .company-abilities .abilities-wrapper {
@@ -183,6 +190,7 @@ button:hover {
   background-color: white;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  border-radius: 20px;
 }
 
 .company-abilities .abilities-wrapper .single-ability h2 {
@@ -221,7 +229,7 @@ button:hover {
 }
 
 .structure-testimonials .structure-wrapper .white-box {
-  height: 43vh;
+  height: 580px;
   border-radius: 15px;
   -webkit-box-shadow: 20px 20px 100px 5px #f0f0f5;
           box-shadow: 20px 20px 100px 5px #f0f0f5;
@@ -243,6 +251,7 @@ button:hover {
   font-weight: 400;
   color: #7e92ac;
   margin: 42px 0 50px;
+  line-height: 40px;
 }
 
 .structure-testimonials .get-product-wrapper {
@@ -312,7 +321,7 @@ button:hover {
 }
 
 .structure-testimonials .task-wrapper .white-box {
-  height: 43vh;
+  height: 580px;
   border-radius: 15px;
   -webkit-box-shadow: 20px 20px 100px 5px #f0f0f5;
           box-shadow: 20px 20px 100px 5px #f0f0f5;

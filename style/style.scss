@@ -1,5 +1,6 @@
 @import "./variables";
 @import "./navMenu";
+@import "./responsive.scss";
 
 * {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -61,7 +62,7 @@ button {
 
   .header-title {
     margin: 120px auto 0;
-    width: 60%;
+    width: 65%;
     text-align: center;
 
     .title-text h1 {
@@ -120,6 +121,7 @@ button {
 
     p {
       @include paragraphRegular(black);
+      line-height: 40px;
     }
   }
 
@@ -132,6 +134,7 @@ button {
       padding: 85px 60px 90px 30px;
       background-color: white;
       box-sizing: border-box;
+      border-radius: 20px;
 
       h2 {
         @include headerSemiBold(black);
@@ -173,6 +176,7 @@ button {
       p {
         @include paragraphRegular(#7e92ac);
         margin: 42px 0 50px;
+        line-height: 40px;
       }
     }
   }
